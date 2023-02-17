@@ -281,6 +281,14 @@ body {
 .footer {
   text-align: center;
   color: var(--clr-neutral-800);
+  padding: 1rem;
+}
+
+@media (min-width: 649px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 .footer a {
